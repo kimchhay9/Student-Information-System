@@ -9,9 +9,9 @@
 <?import javafx.scene.layout.StackPane?>
 <?import javafx.scene.text.Font?>
 
-<StackPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="650.0" prefWidth="900.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1">
+<StackPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="650.0" prefWidth="900.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="studentinformationsystem2.FXMLDocumentController">
    <children>
-      <AnchorPane prefHeight="200.0" prefWidth="200.0">
+      <AnchorPane fx:id="main_form" prefHeight="200.0" prefWidth="200.0">
          <children>
             <AnchorPane layoutY="-8.0" prefHeight="660.0" prefWidth="450.0" styleClass="left-bottom" stylesheets="@LoginDesign.css">
                <children>
@@ -31,10 +31,10 @@
                         <Font name="System Bold" size="30.0" />
                      </font>
                   </Label>
-                  <TextField layoutX="67.0" layoutY="268.0" prefHeight="50.0" prefWidth="350.0" promptText="Username" styleClass="textfield" stylesheets="@LoginDesign.css" />
-                  <PasswordField layoutX="67.0" layoutY="337.0" prefHeight="50.0" prefWidth="350.0" promptText="Password" styleClass="textfield" stylesheets="@LoginDesign.css" />
-                  <Button layoutX="135.0" layoutY="424.0" mnemonicParsing="false" prefHeight="50.0" prefWidth="180.0" styleClass="login-btn" stylesheets="@LoginDesign.css" text="Login" />
-                  <Button layoutX="397.0" layoutY="14.0" mnemonicParsing="false" prefHeight="40.0" prefWidth="40.0" styleClass="close" stylesheets="@LoginDesign.css">
+                  <TextField fx:id="username" layoutX="67.0" layoutY="268.0" prefHeight="50.0" prefWidth="350.0" promptText="Username" styleClass="textfield" stylesheets="@LoginDesign.css" />
+                  <PasswordField fx:id="password" layoutX="67.0" layoutY="337.0" prefHeight="50.0" prefWidth="350.0" promptText="Password" styleClass="textfield" stylesheets="@LoginDesign.css" />
+                  <Button fx:id="loginBtn" layoutX="135.0" layoutY="424.0" mnemonicParsing="false" prefHeight="50.0" prefWidth="180.0" styleClass="login-btn" stylesheets="@LoginDesign.css" text="Login" />
+                  <Button fx:id="close" layoutX="397.0" layoutY="14.0" mnemonicParsing="false" onAction="#close" prefHeight="40.0" prefWidth="40.0" styleClass="close" stylesheets="@LoginDesign.css">
                      <graphic>
                         <FontAwesomeIconView glyphName="CLOSE" size="2em" />
                      </graphic>
