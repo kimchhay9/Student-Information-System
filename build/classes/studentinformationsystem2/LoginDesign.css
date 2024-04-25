@@ -1,0 +1,60 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Apr 26, 2024, 12:12:27 AM
+    Author     : User
+*/
+
+.left-bottom{
+    -fx-background-color: linear-gradient(to bottom right, #B39CD0, #FBEAFF);
+    -fx-border-color: #0000;
+    -fx-border-width: .5px 0px .5px .5px;
+    
+}
+
+.right-bottom{
+    -fx-background-color: #ffff;
+    -fx-border-color: #0000;
+    -fx-border-width: .5px .5px .5px 0px;
+}
+
+.close{
+    -fx-background-color:transparent;
+    -fx-cursor:hand;
+}
+
+.close:hover{
+    -fx-background-color: #E81E45;
+}
+
+.textfield{
+    -fx-background-color: linear-gradient(to bottom, #efefef, #eee);
+    -fx-background-radius: 5px;
+    -fx-border-color:#000;
+    -fx-border-width:.5px;
+    -fx-font-family: "Tahoma";
+    -fx-font-size: 13px;
+    -fx-border-radius: 5px; 
+}
+
+.textfield:focused{
+    -fx-background-color: #ffff;
+    -fx-border-color: linear-gradient(to bottom right, #97418F, #AB4FC9);
+    -fx-border-width: .5px;
+}
+
+.login-btn{
+    -fx-background-color:linear-gradient(to bottom, #2772EB, #0085E7);
+    -fx-text-fill: #ffff;
+    -fx-cursor: hand;
+    -fx-background-radius:5px;
+    -fx-font-size:14px;
+    -fx-font-family: "Arial";
+}
+
+.login-btn:hover{
+    -fx-background-color: linear-gradient(to bottom,#0085E7, #008DC2);
+}
