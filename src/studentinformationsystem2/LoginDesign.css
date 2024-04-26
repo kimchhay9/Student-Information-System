@@ -9,7 +9,7 @@ and open the template in the editor.
 */
 
 .left-bottom{
-    -fx-background-color: linear-gradient(to bottom right, #B39CD0, #FBEAFF);
+    -fx-background-color: linear-gradient(to bottom right,  #B39CD0,  #FBEAFF);
     -fx-border-color: #0000;
     -fx-border-width: .5px 0px .5px .5px;
     
