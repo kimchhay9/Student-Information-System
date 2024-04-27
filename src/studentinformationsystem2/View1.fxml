@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.paint.*?>
+<?import javafx.scene.text.*?>
+<?import javafx.scene.image.*?>
+<?import java.lang.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <ImageView fitHeight="400.0" fitWidth="288.0" layoutX="2.0">
+         <image>
+            <Image url="@../../../../../Downloads/Graduation-Hat-Crafts-66494016-1.png" />
+         </image>
+      </ImageView>
+      <TextField layoutX="331.0" layoutY="173.0" promptText="username" />
+      <TextField layoutX="331.0" layoutY="230.0" promptText="password" />
+      <Text layoutX="337.0" layoutY="131.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Welcome">
+         <font>
+            <Font size="37.0" />
+         </font>
+      </Text>
+      <Button layoutX="331.0" layoutY="283.0" mnemonicParsing="false" prefHeight="27.0" prefWidth="160.0" text="Login" textFill="#100228" />
+   </children>
+</Pane>
