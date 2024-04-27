@@ -12,7 +12,7 @@
    <children>
       <ImageView fitHeight="400.0" fitWidth="288.0" layoutX="2.0">
          <image>
-            <Image url="@../../../../../Downloads/Graduation-Hat-Crafts-66494016-1.png" />
+            <Image url="@img/User%20login.png" />
          </image>
       </ImageView>
       <TextField layoutX="331.0" layoutY="173.0" promptText="username" />
